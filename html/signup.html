@@ -10,27 +10,30 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Sign up to join the MASH!</h1>
-			<form action="../php/signup_sheet.php" method="post">
-				<div class="form-box">
-					<input type="text" placeholder="First Name" id="fname" name="fname"><br><br>
-				</div>
-				<div class="form-box">
-					<input type="text" placeholder="Last Name" id="lname" name="lname"><br><br>
-				</div>
-				<div class="form-box">
-					<input type="text" placeholder="Username" id="userncd ..ame" name="username"><br><br>
-				</div>
-				<div class="form-box">
-					<input type="password" placeholder="Password" id="password" name="password"><br><br>
-				</div>
-				<div class="form-box">
-					<input type="password" id="cpassword" name="cpassword"><br><br>
-				</div>
-				<div class="submit-box">
-					<input type="submit" value="Sign Up">
-				</div>
-			</form>
+			<div class="form-box">
+				<h1>Sign up to join the MASH!</h1>
+				<form action="../php/signup_sheet.php" method="post">
+					<div class="input-box">
+						<input type="text" placeholder="First Name" id="fname" name="fname"><br><br>
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="Last Name" id="lname" name="lname"><br><br>
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="Username" id="userncd ..ame" name="username"><br><br>
+					</div>
+					<div class="input-box">
+						<input type="password" placeholder="Password" id="password" name="password"><br><br>
+					</div>
+					<div class="input-box">
+						<input type="password" placeholder="Confirm Password" id="cpassword" name="cpassword"><br><br>
+					</div>
+					<div class="signup-box">
+						<div id="btn"></div>
+						<input type="submit" value="Sign Up!" class="signup-button">
+					</div>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
